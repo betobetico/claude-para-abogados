@@ -14,9 +14,13 @@ https://github.com/user-attachments/assets/51394f0a-5277-4fe2-b81c-5c5e9ac876b5
 
 1. **Abre Claude Code** (en tu terminal) o **Claude Cowork** (la app de escritorio). ¿No sabes cuál tienes? Si tienes una ventana de terminal con Claude, eso es Claude Code.
 
-2. **Añade el marketplace.** En Claude Code, escribe `/plugin marketplace add ` (con un espacio al final), luego **arrastra la carpeta `claude-para-abogados` descomprimida a la ventana del terminal** — rellenará la ruta. Pulsa Enter.
+2. **Añade el marketplace.** En Claude Code, escribe:
+   ```
+   /plugin marketplace add betobetico/claude-para-abogados
+   ```
+   Claude Code lo descarga directamente de GitHub; no hace falta descargar nada antes. Para recibir las novedades más adelante: `/plugin marketplace update claude-para-abogados`.
 
-   (O escribe la ruta completa: `/plugin marketplace add /Users/tu/Desktop/claude-para-abogados`)
+   **Desde una copia local** (si has descargado y descomprimido el repositorio): escribe `/plugin marketplace add ` (con un espacio al final), luego **arrastra la carpeta `claude-para-abogados` a la ventana del terminal** — rellenará la ruta. Pulsa Enter. O escribe la ruta completa: `/plugin marketplace add /Users/tu/Desktop/claude-para-abogados`
 
 3. **Instala tu plugin.** Elige el que encaje con tu trabajo de la tabla de abajo:
    ```
